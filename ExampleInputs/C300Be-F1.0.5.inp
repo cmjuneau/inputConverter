@@ -1,0 +1,19 @@
+C300Be-F1.0.5.out
+C300Be-F1.0.5.r10
+C300Be-F1.0.5.r11
+atab.dat
+mass.tbl
+level.tbl
+shell.tbl
+channel1.tab
+ -1,'new'
+12.0, 9.0, 6.0, 4.0,  0.0,  0.940, 0.300, 10000000
+ 13, 1, 2, 1, 66, 2
+0.5,3.5,30.0,38.0,45.0,53.0,60.0,90.0,100.0,130.0,0.5
+0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.10,0.000
+ JG,STAT
+ AP,AT,ZP,ZT,SP,MP,T0/AP,LIMC
+ ibrems:  have this card only for gamma+A, 0/1 for fixed/bresstrahlung gammas
+ JJJ,ISYS,INSP,iyeld(0/1/2/3),nevtype(6/66),IGSI(1/2/3)
+ theta(10),dtheta
+ dp(10),pmin

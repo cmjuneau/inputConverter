@@ -1,0 +1,21 @@
+C62Au-F1.out
+C62Au-F1.r10
+C62Au_F1.r11
+atab.dat
+mass.tbl
+level.tbl
+shell.tbl
+channel1.tab
+ -1,'new'
+12.0, 197.0, 6.0, 79.0,  0.0,  0.940, 0.062, 10000000
+ 13, 1, 2, 1, 66, 1
+2.2,4.9,5.6,7.6,8.6,14.4,18.0,21.8,37.0,41.0,1.0
+0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.100,0.10,0.000
+ JG,STAT
+ AP,AT,ZP,ZT,SP,MP,T0/AP,LIMC
+ ibrems:  have this card only for gamma+A, 0/1 for fixed/bresstrahlung gammas
+ JJJ,ISYS,INSP,iyeld(0/1/2/3),nevtype(6/66),IGSI(1/2/3)
+ theta(10),dtheta
+ dp(10),pmin
+ This input is to test the Fragmets (F) heavier than He4 from the C+C Catania 
+ data @ 62 MeV/A; "1" stands for the first set of angles

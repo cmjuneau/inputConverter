@@ -1,0 +1,30 @@
+p38FepreeqFinal.inf                         /File name for diagnostic output. (30 char.)
+p38FepreeqFinal.res                         /File name for results of calculation. (30 char.)
+prot    /pname/ projectile particle name: 
+              prot - proton, neut - neutron, pipl - pi+, pimi - pi-, pize - pi0,
+              gamm - gamma with fixed energy, gamb - bremss. gamma, stop - no more calc.
+38.8  /t0mev/  minimum (initial) projectile kinetic energy in MeV; [tgmin for gamb]
+54.    /anucl/  target mass number
+26.    /znucl/  target atomic number
+1000000  /limc/   total number of inelastic events, normally 2000-500000
+-20.    /dt0/    projectile kinetic energy step-size in MeV [Only 1 energy if <0.]
+39.3  /t0max/  maximum (final) projectile kinetic energy in MeV, [tgmax for gamb]
+10.     /dteta/  step, 2-size (degrees) in ejectile angular distributions [mang > 0]
+ 0      /mspec/  (0/1,2) if ejectile energy spectra (are not/are) needed
+ 1      /mpyld/  (0/1) if particle yield tables (are not/are) needed
+ 0      /mchy/   (0/1) if particle channel yields (are not/are) needed
+ 1      /misy/   (0/1,2,3) if isotope yields (are not/are) needed
+ 0      /mdubl/  (0/1,2) if double differential spectra (are not/are) needed
+ 0      /mang/   (0/1,2) if angular distributions (are not/are) needed
+1 9  /ipar1,ipar2/ range of ejectile types for spectrum calcs. [Below, ang. bins for mdubl > 0]
+15.0 25.0 25.0 35.0 35.0 45.0 -45.0 55.0 55.0 65.0 75.0 85.0 95.0 105.0 115.0 125.0 135.0 145.0 155.0 165.0
+0. 50. 5. 50. 200. 10. 200. 600. 20. 600. 3000. 50. /tmin, tmax, dt, j=1-4/
+66     /nevtype/ number of evaporated particle types (see table in bldatgem.f). 
+66	/npreqtyp/ number of equilibrium particle types
+1      /ipisa/  (0/1) next line is not need if ipisa=0
+15.0,30.0,45.0,60.0,75.0,90.0,110.0,120.0,160.0,165.0,5.0 /PISA angle(10), dang
+1	/ihist/ (0/1) 0 for no hist tallies, 1 for hist tallies
+1       /ityp/   Version of the random no. generator used; 1-7 OK; default 1
+1       /nh/     Lines of text (<11) to be read in; printed on results file (line 2).
+CEM03preeq66 results, 38.8 MeV p  + Fe54 ; 1x10^6 events, 
+stop

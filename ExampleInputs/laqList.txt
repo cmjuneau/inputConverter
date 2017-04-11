@@ -1,0 +1,14 @@
+C62Au-F1.inp
+C62C-F1.inp
+C62C-F2.inp
+C95C-F.inp
+C95C-Fs.inp
+C95Cs.inp
+C300Be-F1.0.5.inp
+C300Be-F1.0.25.inp
+C300Be-F1.inp
+C600Be-F1.inp
+C950Be-F1.inp
+C1992Be-F1.0.5.inp
+C1992Be-F1.inp
+laqgsm0303.inp
