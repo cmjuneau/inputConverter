@@ -38,10 +38,11 @@ convert:
 	@ clear
 	@ ./inpConverter.exe
 #
-# clean:
-# 	@ clear
+ clean:
+	@ clear
+	@ echo '"make clean" option not available.'
 # 	@ echo '---> clean:   remove   *.inp *.exe'
-# 	@ rm -f  *.inp
+#	@ rm -f  *.inp
 #
 
 converter.f90: $(totalConverter)
