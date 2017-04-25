@@ -18,6 +18,7 @@
 ! Editor    | Date       | Edit Description
 ! ----------|------------|-----------------------------------------------------
 ! CMJ       | 04/10/2017 | Original Program Completion
+! CMJ       | 04/25/2017 | Made ZAID Format Standard
 !           |            | 
 !           |            | 
 !           |            | 
@@ -59,17 +60,22 @@
 10  continue
 
 ! Determining new input file format
-    write(*, 1005)
-    if ( default ) then
+    ! write(*, 1005)
+    ! if ( default ) then
+    !
+    !    userAns = defaultAns(1)
+    !    write(*, 10000) userAns
+    !
+    ! else
+    !
+    !    read(*, *) userAns
+    !
+    ! endif
 
-       userAns = defaultAns(1)
-       write(*, 10000) userAns
 
-    else
+    ! Default is ZAID - CMJ [04/2017]
+    userAns = defaultAns(3)
 
-       read(*, *) userAns
-
-    endif
 
     if ( userAns.eq.defaultAns(1) .OR. userAns.eq.defaultAns(2) ) then
 

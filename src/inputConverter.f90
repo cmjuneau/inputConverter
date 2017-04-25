@@ -74,7 +74,7 @@
 
 
     ! Default is ZAID - CMJ [04/2017]
-    user.Ans = defaultAns(3)
+    userAns = defaultAns(3)
 
 
     if ( userAns.eq.defaultAns(1) .OR. userAns.eq.defaultAns(2) ) then
